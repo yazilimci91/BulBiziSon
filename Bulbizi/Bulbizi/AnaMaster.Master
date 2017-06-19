@@ -105,7 +105,9 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 <body>
     <form id="form1" runat="server">
         <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
-        <div class="agileits-modal modal fade" id="myModal88" tabindex="-1" role="dialog" aria-labelledby="myModal88"
+     
+         <%-- MODAL POPUP EKRANI --%>
+          <%-- <div class="agileits-modal modal fade" id="myModal88" tabindex="-1" role="dialog" aria-labelledby="myModal88"
             aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -181,15 +183,15 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                     </div>
                 </div>
             </div>
-        </div>
+        </div>--%>
+
         <script>
             $('#myModal88').modal('show');
         </script>
         <!-- header -->
         <div class="header">
             <div class="w3ls-header">
-                <!--header-one--> 
-
+                <!--header-one-->  
                 <div class="w3ls-header-right">
                     <ul> 
                            <li class="dropdown head-dpdn" >
@@ -221,9 +223,8 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                 <div class="container">
                     <div class="header-logo">
                         <a href="index.html">
-                            <img src="images/logo.png" style="margin-top: 40px" />
-                        </a>
-
+                            <img src="images/logo.png" class="img-responsive" style="margin-top: 40px" />
+                        </a> 
                     </div>
                     <div class="header-search">
                         <%--  <form action="#" method="post">--%>
@@ -258,116 +259,105 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                                 <ul class="cd-dropdown-content">
                                     <li><a href="offers.html">Today's Offers</a></li>
                                     <li class="has-children">
-                                        <a href="#">Electronics</a>
+                                        <a href="#">Elektronik</a>
                                         <ul class="cd-secondary-dropdown is-hidden">
                                             <li class="go-back"><a href="#">Menu</a></li>
-                                            <li class="see-all"><a href="products.html">All Electronics</a></li>
+                                            <li class="see-all"><a href="products.html">TÜM ELEKTRONİKLER</a></li>
                                             <li class="has-children">
-                                                <a href="#">MOBILE PHONES</a>
+                                                <a href="#">MOBİL TELEFONLAR</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#">All Electronics</a></li>
                                                     <li class="has-children">
-                                                        <a href="#0">SmartPhones</a>
+                                                        <a href="#0">Akıllı Telefonlar</a>
                                                         <ul class="is-hidden">
                                                             <li class="go-back"><a href="#"></a></li>
                                                             <li><a href="products.html">Android</a></li>
                                                             <li><a href="products.html">Windows</a></li>
                                                             <li><a href="products.html">Black berry</a></li>
+                                                            <li><a href="products.html">Nokia</a></li>
                                                         </ul>
                                                     </li>
-                                                    <li><a href="products.html">IPhones</a> </li>
-                                                    <li><a href="products.html">Tablets</a></li>
-                                                    <li><a href="products.html">IPad</a></li>
-                                                    <li><a href="products.html">Feature Phones</a></li>
+                                                    <li><a href="products.html">IPhone</a> </li>
+                                                    <li><a href="products.html">Tabletler</a></li>
+                                                    <li><a href="products.html">IPad</a></li> 
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">LARGE APPLIANCES</a>
+                                                <a href="#">BİLGİSAYARLAR</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#">All Electronics </a></li>
-                                                    <li><a href="products.html">Refrigerators</a></li>
-                                                    <li><a href="products.html">Washing Machine</a></li>
-                                                    <li><a href="products.html">Office Technology</a></li>
-                                                    <li><a href="products.html">Air conditioner</a></li>
-                                                    <li><a href="products.html">Home Automation</a></li>
+                                                    <li><a href="products.html">Dizüstü</a></li>
+                                                    <li><a href="products.html">Masaüstü</a></li>
+                                                    <li><a href="products.html">Harddisk</a></li> 
+                                                    <li><a href="products.html">Aksesuarlar</a></li>
+                                                    <li><a href="products.html">Çevre Birimleri</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">ENTERTAINMENT</a>
+                                                <a href="#">TV, GÖRÜNTÜ, SES</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#">All Electronics</a></li>
-                                                    <li><a href="products.html">Tv & Accessories</a></li>
-                                                    <li><a href="products.html">Digital Camera</a></li>
-                                                    <li><a href="products.html">Gaming</a></li>
-                                                    <li><a href="products.html">Home Audio & Theater</a></li>
+                                                    <li><a href="products.html">Kulaklıklar</a></li>
+                                                    <li><a href="products.html">TV Aksesuarları</a></li>
+                                                    <li><a href="products.html">Ev Sinema Sistemleri</a></li>
+                                                    <li><a href="products.html">Müzik Sistemleri</a></li>
                                                     <li class="has-children">
-                                                        <a href="#">Computer</a>
+                                                        <a href="#">Televizyon</a>
                                                         <ul class="is-hidden">
                                                             <li class="go-back"><a href="#"></a></li>
-                                                            <li><a href="products.html">Laptop </a></li>
-                                                            <li><a href="products.html">Gaming PC</a></li>
-                                                            <li><a href="products.html">Monitors</a></li>
-                                                            <li><a href="products.html">Networking</a></li>
-                                                            <li><a href="products.html">Printers & Supplies</a></li>
-                                                            <li><a href="products.html">Accessories</a></li>
+                                                            <li><a href="products.html">Samsung</a></li>
+                                                            <li><a href="products.html">LG</a></li>
+                                                            <li><a href="products.html">Vestel</a></li>
+                                                            <li><a href="products.html">Philips</a></li>
+                                                            <li><a href="products.html">Apple</a></li>
+                                                            <li><a href="products.html">Grundig</a></li>
                                                         </ul>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">HOME APPLIANCES</a>
+                                                <a href="#">BEYAZ EŞYA</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#0">All Electronics </a></li>
-                                                    <li class="has-children"><a href="#">Kitchen appliances</a>
+                                                    <li ><a href="#">Çamaşır Makineleri</a></li>
+                                                    <li><a href="products.html">Buzdolapları</a></li>
+                                                    <li><a href="products.html">Bulaşık Makineleri</a></li>
+                                                    <li><a href="products.html">Derin Dondurucular</a></li>
+                                                    <li><a href="products.html">Ocaklar</a></li>
+                                                    <li><a href="products.html">Kurutma Makineleri</a></li>
+                                                    <li><a href="products.html">Fırınlar</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="has-children">
+                                                <a href="#">FOTO & KAMERA</a>
+                                                <ul class="is-hidden">
+                                                    <li class="go-back"><a href="#0">All Electronics </a></li>
+                                                    <li><a href="products.html">Fotoğraf Makineleri</a></li>
+                                                    <li><a href="products.html">Dijital Fotoğraf Makineleri</a></li>
+                                                    <li class="has-children"><a href="#">Aksesuarlar</a>
                                                         <ul class="is-hidden">
                                                             <li class="go-back"><a href="#0"></a></li>
-                                                            <li><a href="products.html">Rice Cookers</a></li>
-                                                            <li><a href="products.html">Mixer Juicer</a></li>
-                                                            <li><a href="products.html">Grinder</a></li>
-                                                            <li><a href="products.html">Blenders & Choppers</a></li>
-                                                            <li><a href="products.html">Microwave Oven</a></li>
-                                                            <li><a href="products.html">Food Processors</a></li>
+                                                            <li><a href="products.html">Lensler</a></li>
+                                                            <li><a href="products.html">Hafıza Kartı</a></li>
+                                                            <li><a href="products.html">Fotoğraf Makine Çantaları</a></li>
+                                                            <li><a href="products.html">Tripod</a></li>
+                                                            <li><a href="products.html">Boş DVD, CD</a></li>
+                                                            <li><a href="products.html">Pil ve Şarj Aletleri</a></li>
                                                         </ul>
                                                     </li>
-                                                    <li><a href="products.html">Purifiers</a></li>
-                                                    <li><a href="products.html">Geysers</a></li>
-                                                    <li><a href="products.html">Gas Stove</a></li>
-                                                    <li><a href="products.html">Vacuum Cleaner</a></li>
-                                                    <li><a href="products.html">Sewing Machine</a></li>
-                                                    <li><a href="products.html">Heaters & Fans</a></li>
+                                                    <li><a href="products.html">Video Kameralar</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">SMALL DEVICES</a>
+                                                <a href="#">OYUN & KONSOLLARI</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#0">All Electronics </a></li>
-                                                    <li><a href="products.html">Wifi Dongle</a></li>
-                                                    <li><a href="products.html">Router & Modem</a></li>
-                                                    <li class="has-children"><a href="#">Storage Devices</a>
-                                                        <ul class="is-hidden">
-                                                            <li class="go-back"><a href="#0"></a></li>
-                                                            <li><a href="products.html">Cloud Storage</a></li>
-                                                            <li><a href="products.html">Hard Disk</a></li>
-                                                            <li><a href="products.html">SSD</a></li>
-                                                            <li><a href="products.html">Pen Drive</a></li>
-                                                            <li><a href="products.html">Memory card</a></li>
-                                                            <li><a href="products.html">Security Devices</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="products.html">Office Supplies</a></li>
-                                                    <li><a href="products.html">Cut the Cable</a></li>
-                                                    <li><a href="products.html">Auto Electronics</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="has-children">
-                                                <a href="#">PERSONAL CARE</a>
-                                                <ul class="is-hidden">
-                                                    <li class="go-back"><a href="#0">All Electronics </a></li>
-                                                    <li><a href="products.html">Epilator</a></li>
-                                                    <li><a href="products.html">Hair Styler</a></li>
-                                                    <li><a href="products.html">Trimmer & Shaver</a></li>
-                                                    <li><a href="products.html">Health Care</a></li>
-                                                    <li><a href="products.html">cables</a></li>
+                                                    <li><a href="products.html">Playstation 4</a></li>
+                                                    <li><a href="products.html">Playstation 3</a></li>
+                                                    <li><a href="products.html">PSP / Vita</a></li>
+                                                    <li><a href="products.html">Nintendo</a></li>
+                                                    <li><a href="products.html">Bilgisayar Oyunları</a></li>
+                                                    <li><a href="products.html">Xbox One</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -375,86 +365,75 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                                     </li>
                                     <!-- .has-children -->
                                     <li class="has-children">
-                                        <a href="#">Fashion Store</a>
+                                        <a href="#">Moda & Takı</a>
                                         <ul class="cd-secondary-dropdown is-hidden">
                                             <li class="go-back"><a href="#">Menu</a></li>
-                                            <li class="see-all"><a href="products1.html">All Fashion Stores</a></li>
+                                            <li class="see-all"><a href="products1.html">TÜM TAKI VE MODA ÜRÜNLERİ</a></li>
                                             <li class="has-children">
-                                                <a href="#">GIRLS' CLOTHING</a>
+                                                <a href="#">KADIN</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#">All Fashion Stores</a></li>
-                                                    <li><a href="products1.html">Ethnic wear </a></li>
-                                                    <li><a href="products1.html">Maternity wear</a></li>
-                                                    <li><a href="products1.html">inner & nightwear </a></li>
-                                                    <li><a href="products1.html">casual wear </a></li>
-                                                    <li><a href="products1.html">formal wear</a></li>
-                                                    <li><a href="products1.html">Sports wear</a></li>
+                                                    <li><a href="products1.html">Giyim</a></li>
+                                                    <li><a href="products1.html">İç Giyim</a></li>
+                                                    <li><a href="products1.html">Ayakkabı</a></li>
+                                                    <li><a href="products1.html">Çanta</a></li>
+                                                    <li><a href="products1.html">Tesettür</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">BOYS' CLOTHING</a>
+                                                <a href="#">ERKEK</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#">All Fashion Stores</a></li>
-                                                    <li><a href="products1.html">Jeans</a></li>
-                                                    <li><a href="products1.html">Casual wear</a></li>
-                                                    <li><a href="products1.html">Shorts</a></li>
-                                                    <li><a href="products1.html">T-Shirts & Polos</a></li>
-                                                    <li><a href="products1.html">Trousers & Chinos</a></li>
+                                                    <li><a href="products1.html">Giyim</a></li>
+                                                    <li><a href="products1.html">İç Giyim</a></li>
+                                                    <li><a href="products1.html">Spor Ayakkabı</a></li>
+                                                    <li><a href="products1.html">Kemer</a></li>
+                                                    <li><a href="products1.html">Kravat</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">JACKETS</a>
+                                                <a href="#">ÇOCUK GİYİM</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#">All Fashion Stores</a></li>
-                                                    <li><a href="products1.html">Blazers</a></li>
-                                                    <li><a href="products1.html">Bomber jackets</a></li>
-                                                    <li><a href="products1.html">Denim Jackets</a></li>
-                                                    <li><a href="products1.html">Duffle Coats</a></li>
-                                                    <li><a href="products1.html">Leather Jackets</a></li>
-                                                    <li><a href="products1.html">Parkas</a></li>
+                                                    <li><a href="products1.html">Kız Çocuk</a></li>
+                                                    <li><a href="products1.html">Erkek Çocuk</a></li>
+                                                    <li><a href="products1.html">Spor Ayakkabı</a></li>
+                                                    <li><a href="products1.html">Spor Giyim</a></li>
+                                                    <li><a href="products1.html">Giyim</a></li>
+                                                    <li><a href="products1.html">Ayakkabı</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">ACCESSORIES </a>
+                                                <a href="#">TAKI/MÜCEVHER</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#">All Fashion Stores</a></li>
-                                                    <li><a href="products1.html">Watches </a></li>
-                                                    <li><a href="products1.html">Eyewear </a></li>
-                                                    <li><a href="products1.html">Jewellery </a></li>
-                                                    <li class="has-children">
-                                                        <a href="#">Footwear </a>
-                                                        <ul class="is-hidden">
-                                                            <li class="go-back"><a href="#"></a></li>
-                                                            <li><a href="products1.html">Ethnic</a></li>
-                                                            <li><a href="products1.html">Casual wear</a></li>
-                                                            <li><a href="products1.html">Sports Shoes</a></li>
-                                                            <li><a href="products1.html">Boots</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="products1.html">Stoles & Scarves</a></li>
-                                                    <li><a href="products1.html">Handbags</a></li>
+                                                    <li><a href="products1.html">Yüzük</a></li>
+                                                    <li><a href="products1.html">Bilezik</a></li>
+                                                    <li><a href="products1.html">Kolye</a></li>
+                                                    <li><a href="#">Küpe</a></li>
+                                                    <li><a href="products1.html">Erkek Takıları</a></li>
+                                                    <li><a href="products1.html">Tesbih</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">BEAUTY</a>
+                                                <a href="#">SAATLER</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#">All Fashion Stores</a></li>
-                                                    <li><a href="products1.html">Perfumes & Deos</a></li>
-                                                    <li><a href="products1.html">Lipsticks & Nail Polish</a></li>
-                                                    <li><a href="products1.html">Beauty Gift Hampers</a></li>
-                                                    <li><a href="products1.html">Personal Grooming</a></li>
-                                                    <li><a href="products1.html">Travel bags</a></li>
+                                                    <li><a href="products1.html">Kol Saatleri</a></li>
+                                                    <li><a href="products1.html">Masa Saatleri</a></li>
+                                                    <li><a href="products1.html">Duvar Saatleri</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="has-children">
-                                                <a href="products1.html">PERSONAL CARE</a>
+                                             <li class="has-children">
+                                                <a href="#">ALTIN</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#">All Fashion Stores</a></li>
-                                                    <li><a href="products1.html">Face Care</a></li>
-                                                    <li><a href="products1.html">Nail Care</a></li>
-                                                    <li><a href="products1.html">Hair Care</a></li>
-                                                    <li><a href="products1.html">Body Care</a></li>
-                                                    <li><a href="products1.html">Bath & Spa</a></li>
+                                                    <li><a href="products1.html">Ziynet Altın</a></li>
+                                                    <li><a href="products1.html">Çeyrek Altın</a></li>
+                                                    <li><a href="products1.html">Yarım Altın</a></li>
+                                                    <li><a href="products1.html">Tam Altın</a></li>
+                                                    <li><a href="products1.html">Külçe Altın</a></li>
+                                                    <li><a href="products1.html">Cumhuriyet Altın</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -462,70 +441,61 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                                     </li>
                                     <!-- .has-children -->
                                     <li class="has-children">
-                                        <a href="products2.html">Kids Fashion & Toys</a>
+                                        <a href="products2.html">Ev, Yaşam,Kırtasiye, Ofis</a>
                                         <ul class="cd-secondary-dropdown is-hidden">
                                             <li class="go-back"><a href="#">Menu</a></li>
-                                            <li class="see-all"><a href="products2.html">All Kids Fashions</a></li>
+                                            <li class="see-all"><a href="products2.html">TÜM EV, YAŞAM ve KIRTASİYE</a></li>
                                             <li class="has-children">
-                                                <a href="products2.html">KIDS CLOTHING</a>
+                                                <a href="products2.html">MOBİLYA</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#">All Kids Fashions</a></li>
-                                                    <li><a href="products2.html">Ethnic wear </a></li>
-                                                    <li><a href="products2.html">inner & Sleepwear </a></li>
-                                                    <li><a href="products2.html">Dresses & Frocks </a></li>
-                                                    <li><a href="products2.html">Winter wear</a></li>
-                                                    <li><a href="products2.html">Diaper & Accessories</a></li>
+                                                    <li><a href="products2.html">Yatak odası</a></li>
+                                                    <li><a href="products2.html">Oturma odası</a></li>
+                                                    <li><a href="products2.html">Yemek odası</a></li>
+                                                    <li><a href="products2.html">TV Sehpaları</a></li>
+                                                    <li><a href="products2.html">Çalışma odası</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="has-children"><a href="#">KIDS FASHION</a>
+                                            <li class="has-children"><a href="#">EV TEKSTİLİ</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#">All Kids Fashions</a></li>
-                                                    <li><a href="products2.html">Footwear</a></li>
-                                                    <li><a href="products2.html">Sunglasses </a></li>
-                                                    <li><a href="products2.html">School & Stationery</a></li>
-                                                    <li><a href="products2.html">Jewellery</a></li>
-                                                    <li><a href="products2.html">Hair bands & Clips</a></li>
+                                                    <li><a href="products2.html">Yataklar</a></li>
+                                                    <li><a href="products2.html">Yatak odası</a></li>
+                                                    <li><a href="products2.html">Yastık</a></li>
+                                                    <li><a href="products2.html">Yorgan</a></li>
+                                                    <li><a href="products2.html">Yatak örtüsü</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="has-children"><a href="#">Baby Care</a>
+                                            <li class="has-children"><a href="#">OFİS KIRTASİYE</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#">All Kids Fashions</a></li>
-                                                    <li><a href="products2.html">Lotions, Oil & Powder </a></li>
-                                                    <li><a href="products2.html">Soaps, Shampoo </a></li>
-                                                    <li><a href="products2.html">Bath Towels</a></li>
-                                                    <li class="has-children">
-                                                        <a href="#">Feeding</a>
-                                                        <ul class="is-hidden">
-                                                            <li class="go-back"><a href="#"></a></li>
-                                                            <li><a href="products2.html">Baby Food </a></li>
-                                                            <li><a href="products2.html">Bottle Feeding </a></li>
-                                                            <li><a href="products2.html">Breast Feeding</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="products2.html">Toddlers' Rooms</a></li>
+                                                    <li><a href="products2.html">Kırtasiye Ürünleri</a></li>
+                                                    <li><a href="products2.html">Ofis Makineleri</a></li>
+                                                    <li><a href="products2.html">Okul ürünleri</a></li>
+                                                    <li ><a href="#">Piller & Şarjlar</a></li>
+                                                    <li><a href="products2.html">Projeksiyon Sistemleri</a></li>
                                                 </ul>
                                                 <!-- .cd-secondary-dropdown -->
                                             </li>
                                             <!-- .has-children -->
-                                            <li class="has-children"><a href="#">TOYS & GAMES </a>
+                                            <li class="has-children"><a href="#">ELEKTRİKLİ EV ALETLERİ</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#">All Kids Fashions</a></li>
-                                                    <li><a href="products2.html">Art & Crafts</a></li>
-                                                    <li><a href="products2.html">Educational Toys </a></li>
-                                                    <li><a href="products2.html">Baby Toys</a></li>
-                                                    <li><a href="products2.html">Outdoor Play </a></li>
-                                                    <li><a href="products2.html">Musical Instruments</a></li>
+                                                    <li><a href="products2.html">Elektrikli Mutfak Aletleri</a></li>
+                                                    <li><a href="products2.html">Ütüler</a></li>
+                                                    <li><a href="products2.html">Süpürgeler</a></li>
+                                                    <li><a href="products2.html">Çay Makineleri</a></li>
+                                                    <li><a href="products2.html">Tost Makineleri</a></li>
                                                 </ul>
                                             </li>
-                                            <li>
+                                            <li class="has-children"><a href="#">OFİS MOBİLYALARI</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#">All Kids Fashions</a></li>
-                                                    <li><a href="products2.html">Toy Tips & Trends</a></li>
-                                                    <li><a href="products2.html">Preschool Toys</a></li>
-                                                    <li><a href="products2.html">Musical Instruments</a></li>
-                                                    <li><a href="products2.html">Bikes & Ride-Ons</a></li>
-                                                    <li><a href="products2.html">Video Games</a></li>
-                                                    <li><a href="products2.html">PC & Digital Gaming</a></li>
+                                                    <li><a href="products2.html">Ofis koltukları</a></li>
+                                                    <li><a href="products2.html">Para Kasaları</a></li>
+                                                    <li><a href="products2.html">Ofis MAsaları</a></li>
+                                                    <li><a href="products2.html">Ayaklı Küllük</a></li>
+                                                    <li><a href="products2.html">Masa TAkımaları</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -533,67 +503,68 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                                     </li>
                                     <!-- .has-children -->
                                     <li class="has-children">
-                                        <a href="#">Home, Furniture & Patio</a>
+                                        <a href="#">Oto, Bahçe, Yapı Marketleri</a>
                                         <ul class="cd-secondary-dropdown is-hidden">
                                             <li class="go-back"><a href="#">Menu</a></li>
-                                            <li class="see-all"><a href="products3.html">All Products</a></li>
+                                            <li class="see-all"><a href="products3.html">TÜM OTO, BAHÇE MARKETLERİ</a></li>
                                             <li class="has-children">
-                                                <a href="#">Kitchen Uses</a>
+                                                <a href="#">OTO AKSESUAR
+                                                </a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products3.html">Dinner Sets </a></li>
-                                                    <li><a href="products3.html">Cookware & Bakeware </a></li>
-                                                    <li><a href="products3.html">Containers & Jars </a></li>
-                                                    <li><a href="products3.html">Kitchen Tools </a></li>
-                                                    <li><a href="products3.html">Food Storage</a></li>
-                                                    <li><a href="products3.html">Casseroles</a></li>
+                                                    <li><a href="products3.html">Oto Aksesuar Ürünleri </a></li>
+                                                    <li><a href="products3.html">Oto Ses ve Görüntü</a></li>
+                                                    <li><a href="products3.html">Lastik & Jantlar</a></li>
+                                                    <li><a href="products3.html">Motosiklet</a></li>
+                                                    <li><a href="products3.html">Yedek Parçalar</a></li>
+                                                    <li><a href="products3.html">Navigasyon</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">Furniture </a>
+                                                <a href="#">YAPI MARKET </a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products3.html">Bedroom </a></li>
-                                                    <li><a href="products3.html">Dining Room </a></li>
-                                                    <li><a href="products3.html">Kids' Furniture </a></li>
-                                                    <li><a href="products3.html">Living Room</a></li>
-                                                    <li><a href="products3.html">Office</a></li>
-                                                    <li><a href="products3.html">Mattresses</a></li>
+                                                    <li><a href="products3.html">Elektrikli Alet</a></li>
+                                                    <li><a href="products3.html">Hırdavat</a></li>
+                                                    <li><a href="products3.html">Güvenlik Cİhazları</a></li>
+                                                    <li><a href="products3.html">Jeneratör</a></li>
+                                                    <li><a href="products3.html">Takım Çantaları</a></li>
+                                                    <li><a href="products3.html">Boya Aksesuarları</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">Home Decor </a>
+                                                <a href="#">ELEKTRİK & AYDINLATMA</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products3.html">Lighting</a></li>
-                                                    <li><a href="products3.html">Painting</a></li>
-                                                    <li><a href="products3.html">Curtains & Blinds</a></li>
-                                                    <li><a href="products3.html">Patio Furniture</a></li>
-                                                    <li><a href="products3.html">Wardrobes & Cabinets</a></li>
-                                                    <li><a href="products3.html">Mattresses</a></li>
+                                                    <li><a href="products3.html">Ampuller</a></li>
+                                                    <li><a href="products3.html">Avize</a></li>
+                                                    <li><a href="products3.html">Abajur</a></li>
+                                                    <li><a href="products3.html">Masa Lambası</a></li>
+                                                    <li><a href="products3.html">Priz</a></li>
+                                                    <li><a href="products3.html">Uzatma KAbloları</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">Gardening & Lawn </a>
+                                                <a href="#">BAHÇE</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products3.html">Gardening </a></li>
-                                                    <li><a href="products3.html">Landscaping </a></li>
-                                                    <li><a href="products3.html">Sheds</a></li>
-                                                    <li><a href="products3.html">Outdoor Storage  </a></li>
-                                                    <li><a href="products3.html">Garden & Ideas </a></li>
-                                                    <li><a href="products3.html">Patio Tips</a></li>
+                                                    <li><a href="products3.html">Bahçe Makineleri</a></li>
+                                                    <li><a href="products3.html">Bahçe Mobilyası</a></li>
+                                                    <li><a href="products3.html">Bahçe Dekarasyonu</a></li>
+                                                    <li><a href="products3.html">Mangal Barberkü</a></li>
+                                                    <li><a href="products3.html">Bahçe Kovucular</a></li>
+                                                    <li><a href="products3.html">Tohum  Fidan Toprak</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">Garage Storage</a>
+                                                <a href="#">BANYO</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products3.html">Baskets & Bins </a></li>
-                                                    <li><a href="products3.html">Garage Door Openers</a></li>
-                                                    <li><a href="products3.html">Free Standing Shelves </a></li>
-                                                    <li><a href="products3.html">Floor cleaning</a></li>
-                                                    <li><a href="products3.html">Tool Kits</a></li>
+                                                    <li><a href="products3.html">Banyo Mobilyaları</a></li>
+                                                    <li><a href="products3.html">Duş Sistemleri</a></li>
+                                                    <li><a href="products3.html">Banyo Aksesurları</a></li>
+                                                    <li><a href="products3.html">Batarya & Musluk</a></li>
+                                                    <li><a href="products3.html">Tesisat</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -601,74 +572,72 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                                     </li>
                                     <!-- .has-children -->
                                     <li class="has-children">
-                                        <a href="#">Sports, Fitness & Outdoor</a>
+                                        <a href="#">Anne, Bebek, Oyuncak</a>
                                         <ul class="cd-secondary-dropdown is-hidden">
                                             <li class="go-back"><a href="#">Menu</a></li>
-                                            <li class="see-all"><a href="products4.html">All Products</a></li>
+                                            <li class="see-all"><a href="products4.html">TÜM ANNE,BEBEK, ÇOCUK</a></li>
                                             <li class="has-children">
-                                                <a href="#">Single Sports </a>
+                                                <a href="#">BEBEK BESLENME</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products4.html">Bikes </a></li>
-                                                    <li><a href="products4.html">Fishing  </a></li>
-                                                    <li><a href="products4.html">Cycling </a></li>
-                                                    <li><a href="products4.html">Musical Instruments</a></li>
-                                                    <li><a href="products4.html">Archery </a></li>
+                                                    <li><a href="products4.html">Biberon</a></li>
+                                                    <li><a href="products4.html">Emzik</a></li>
+                                                    <li><a href="products4.html">Bebek Maması</a></li>
+                                                    <li><a href="products4.html">Mama Sandalyesi</a></li>
+                                                    <li><a href="products4.html">Aksesuar</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">Team Sports</a>
+                                                <a href="#">BAKIM & KOZMETİK</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products4.html">Cricket </a></li>
-                                                    <li><a href="products4.html">Badminton </a></li>
-                                                    <li><a href="products4.html">Swimming Gear </a></li>
-                                                    <li><a href="products4.html">Sports Apparel </a></li>
-                                                    <li><a href="products4.html">Indoor games</a></li>
+                                                    <li><a href="products4.html">Bebek Kozmetik</a></li>
+                                                    <li><a href="products4.html">Bebek Sağlık</a></li>
+                                                    <li><a href="products4.html">Anne Bakım</a></li>
+                                                    <li><a href="products4.html">Kozmetik</a></li>
+                                                    <li><a href="products4.html">Bakım Çantası</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">Fitness </a>
+                                                <a href="#">BEBEK HEDİYELİK</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products4.html">Fitness Accessories </a></li>
-                                                    <li><a href="products4.html">Exercise Machines </a></li>
-                                                    <li><a href="products4.html">Ellipticals </a></li>
-                                                    <li><a href="products4.html">Home Gyms</a></li>
-                                                    <li><a href="products4.html">Exercise Bikes</a></li>
+                                                    <li><a href="products4.html">Hediye Sepeti</a></li>
+                                                    <li><a href="products4.html">İsme Özel Hediyelik</a></li>
+                                                    <li><a href="products4.html">Resimlik</a></li>
+                                                    <li><a href="products4.html">Anı Defteri</a></li>
+                                                    <li><a href="products4.html">Hediyeler</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">Camping </a>
+                                                <a href="#">GİYİM</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products4.html">Airbeds</a></li>
-                                                    <li><a href="products4.html">Tents </a></li>
-                                                    <li><a href="products4.html">Gazebo's & Shelters</a></li>
-                                                    <li><a href="products4.html">Coolers </a></li>
-                                                    <li><a href="products4.html">Canopies</a></li>
-                                                    <li><a href="products4.html">Sleeping Bags</a></li>
+                                                    <li><a href="products4.html">Hamile Giyim</a></li>
+                                                    <li><a href="products4.html">Bebek Giyim</a></li>
+                                                    <li><a href="products4.html">Çocuk Giyim</a></li>
+                                                    <li><a href="products4.html">Dış Giyim</a></li>
+                                                    <li><a href="products4.html">Tulum</a></li>
+                                                    <li><a href="products4.html">Bebek Pijama</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">Camping Tools</a>
+                                                <a href="#">B. BEZİ, MENDİLLER</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products4.html">Shooting </a></li>
-                                                    <li><a href="products4.html">Knives & Tools </a></li>
-                                                    <li><a href="products4.html">Optics & Binoculars </a></li>
-                                                    <li><a href="products4.html">Lights & Lanterns </a></li>
-                                                    <li><a href="products4.html">Hunting Clothing </a></li>
+                                                    <li><a href="products4.html">Islak Mendil</a></li>
+                                                    <li><a href="products4.html">Bebek Bezi</a></li>
+                                                    <li><a href="products4.html">Alt Açma</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">Other</a>
+                                                <a href="#">BEBEK GÜVENLİK</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products4.html">Riding Gears & More </a></li>
-                                                    <li><a href="products4.html">Body Massagers </a></li>
-                                                    <li><a href="products4.html">Health Monitors </a></li>
-                                                    <li><a href="products4.html">Health Drinks </a></li>
+                                                    <li><a href="products4.html">Koruyucu ve Kilit</a></li>
+                                                    <li><a href="products4.html">Telsiz</a></li>
+                                                    <li><a href="products4.html">Kamera</a></li>
+                                                    <li><a href="products4.html">Dedektör</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -676,370 +645,326 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                                     </li>
                                     <!-- .has-children -->
                                     <li class="has-children">
-                                        <a href="#">Grocery store</a>
+                                        <a href="#">Spor Outdoor</a>
                                         <ul class="cd-secondary-dropdown is-hidden">
                                             <li class="go-back"><a href="#">Menu</a></li>
-                                            <li class="see-all"><a href="products5.html">All Products</a></li>
+                                            <li class="see-all"><a href="products5.html">TÜM SPOR OUTDOOR</a></li>
                                             <li class="has-children">
-                                                <a href="#">Veggies & Fruits </a>
+                                                <a href="#">SPOR ÜRÜNLERİ</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products5.html">Vegetables </a></li>
-                                                    <li><a href="products5.html">Fruits </a></li>
-                                                    <li><a href="products5.html">Dry Fruits</a></li>
-                                                    <li><a href="products5.html">Snacks & Cookies </a></li>
-                                                    <li><a href="products5.html">Breakfast & Cereal</a></li>
+                                                    <li><a href="products5.html">Koşu Bandı</a></li>
+                                                    <li><a href="products5.html">Kondisyon Bisikleti</a></li>
+                                                    <li><a href="products5.html">Spor Ayakkabıları</a></li>
+                                                    <li><a href="products5.html">Spor Giyim & Aksesuar</a></li>
+                                                    <li><a href="products5.html">Vucut Geliştirme</a></li>
+                                                    <li><a href="products5.html">Sporcu Besinleri</a></li>
+                                                    <li><a href="products5.html">Bisikletler</a></li>
+                                                    <li><a href="products5.html">Paten, Kaykar, Scooter</a></li>
+                                                    <li><a href="products5.html">Taraftar Ürünleri</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">Packet Food</a>
+                                                <a href="#">SPOR BRANŞLARI</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products5.html">Beverages </a></li>
-                                                    <li><a href="products5.html">Baking </a></li>
-                                                    <li><a href="products5.html">Emergency Food </a></li>
-                                                    <li><a href="products5.html">Candy & Gum </a></li>
-                                                    <li><a href="products5.html">Meals & Pasta </a></li>
+                                                    <li><a href="products5.html">Futbol</a></li>
+                                                    <li><a href="products5.html">Basketbol</a></li>
+                                                    <li><a href="products5.html">Voleybol</a></li>
+                                                    <li><a href="products5.html">Boks</a></li>
+                                                    <li><a href="products5.html">Tenis</a></li>
+                                                    <li><a href="products5.html">Masa Tenisi</a></li>
+                                                    <li><a href="products5.html">Badminton</a></li>
+                                                    <li><a href="products5.html">Yüzme</a></li>
+                                                    <li><a href="products5.html">Uzakdoğu Sporları</a></li>
+                                                    <li><a href="products5.html">Kayak & Snowboard</a></li>
+
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">Shop All Pets </a>
+                                                <a href="#">OUTDOOR & YAŞAM</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products5.html">Dogs </a></li>
-                                                    <li><a href="products5.html">Fish </a></li>
-                                                    <li><a href="products5.html">Cats</a></li>
-                                                    <li><a href="products5.html">Birds </a></li>
-                                                    <li><a href="products5.html">Pet Food </a></li>
+                                                    <li><a href="products5.html">Outdoor Çantalar</a></li>
+                                                    <li><a href="products5.html">Aksiyon Kameralar</a></li>
+                                                    <li><a href="products5.html">Şişme Yataklar</a></li>
+                                                    <li><a href="products5.html">Çadırlar</a></li>
+                                                    <li><a href="products5.html">Outdoor Ayakkabı</a></li>
+                                                    <li><a href="products5.html">Çadırlar</a></li>
+                                                    <li><a href="products5.html">Outdoor Giyim</a></li>
+                                                    <li><a href="products5.html">Balıkçılık Malzemeleri</a></li>
+                                                    <li><a href="products5.html">Kamp Malzemeleri</a></li>
+                                                    <li><a href="products5.html">Termos Muglar</a></li>
+                                                    <li><a href="products5.html">Doğa Sporları</a></li>
                                                 </ul>
-                                            </li>
-                                            <li class="has-children">
-                                                <a href="#">Household Essentials </a>
-                                                <ul class="is-hidden">
-                                                    <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products5.html">Laundry Room </a></li>
-                                                    <li><a href="products5.html">Paper & Plastic</a></li>
-                                                    <li><a href="products5.html">Pest Control </a></li>
-                                                    <li><a href="products5.html">Batteries </a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="has-children">
-                                                <a href="#">Food Shops </a>
-                                                <ul class="is-hidden">
-                                                    <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products5.html">Fresh Food</a></li>
-                                                    <li><a href="products5.html">Food Gifts </a></li>
-                                                    <li><a href="products5.html">Frozen Food </a></li>
-                                                    <li><a href="products5.html">Organic </a></li>
-                                                    <li><a href="products5.html">Gluten Free </a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="has-children">
-                                                <a href="#">Tips </a>
-                                                <ul class="is-hidden">
-                                                    <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products5.html">Pets Growth</a></li>
-                                                    <li><a href="products5.html">Recipes </a></li>
-                                                    <li><a href="products5.html">Snacks</a></li>
-                                                    <li><a href="products5.html">Nutrition</a></li>
-                                                </ul>
-                                            </li>
+                                            </li> 
                                         </ul>
                                         <!-- .cd-secondary-dropdown -->
                                     </li>
                                     <!-- .has-children -->
                                     <li class="has-children">
-                                        <a href="#">Photo, Gifts & Office Supplies</a>
+                                        <a href="#">Kozmetik Kişisel Bakım</a>
                                         <ul class="cd-secondary-dropdown is-hidden">
                                             <li class="go-back"><a href="#">Menu</a></li>
-                                            <li class="see-all"><a href="products6.html">All Products</a></li>
+                                            <li class="see-all"><a href="products6.html">TÜM KOZMETİK KİŞİSEL BAKIM</a></li>
                                             <li class="has-children">
-                                                <a href="#">Trending Now </a>
+                                                <a href="#">ERKEK BAKIM </a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products6.html">Best Priced</a></li>
-                                                    <li><a href="products6.html">Chocolates </a></li>
-                                                    <li><a href="products6.html">Gift Cards </a></li>
-                                                    <li><a href="products6.html">Fashion & Accessories </a></li>
-                                                    <li><a href="products6.html">Decorative Plants </a></li>
+                                                    <li><a href="products6.html">Tıraş Bıçakları</a></li>
+                                                    <li><a href="products6.html">Tıraş Sabunu</a></li>
+                                                    <li><a href="products6.html">Krem</a></li>
+                                                    <li><a href="products6.html">Köpük ve Jeller</a></li>
+                                                    <li><a href="products6.html">Tüy Temizleme Makineleri</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">Photos </a>
+                                                <a href="#">KADIN BAKIM </a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products6.html">Shelf animation </a></li>
-                                                    <li><a href="products6.html">3D-rendered </a></li>
-                                                    <li><a href="products6.html">gift builder </a></li>
-                                                    <li><a href="products6.html">Frames</a></li>
-                                                    <li><a href="products6.html">Wall Decor</a></li>
+                                                    <li><a href="products6.html">Ağda Makineleri</a></li>
+                                                    <li><a href="products6.html">Epilatörler</a></li>
+                                                    <li><a href="products6.html">Hijyenik Pedler</a></li>
+                                                    <li><a href="products6.html">Günlük Pedler</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">Gifts </a>
+                                                <a href="#">SAĞLIK MEDİKAL</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products6.html">Personalized Gifts </a></li>
-                                                    <li><a href="products6.html">Flowers </a></li>
-                                                    <li><a href="products6.html">Cards & Toys</a></li>
-                                                    <li><a href="products6.html">Show pieces </a></li>
-                                                    <li><a href="products6.html">Photo Books</a></li>
+                                                    <li><a href="products6.html">Cinsel Sağlık</a></li>
+                                                    <li><a href="products6.html">Ortopedi Ürünleri</a></li>
+                                                    <li><a href="products6.html">Medikal Ürünler</a></li>
+                                                    <li><a href="products6.html">Hastahane Ürünleri</a></li>
+                                                    <li><a href="products6.html">Hasta Bakım Ürünleri</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">Favourite Brands </a>
+                                                <a href="#">SAÇ BAKIM </a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products6.html">Archies </a></li>
-                                                    <li><a href="products6.html">Jewel Fuel </a></li>
-                                                    <li><a href="products6.html">Ferns N Petals </a></li>
-                                                    <li><a href="products6.html">Happily Unmarried</a></li>
-                                                    <li><a href="products6.html">Chumbak</a></li>
+                                                    <li><a href="products6.html">Saç Şekillendirme</a></li>
+                                                    <li><a href="products6.html">Saç Kurutma Makineleri</a></li>
+                                                    <li><a href="products6.html">Saç Maskeleri</a></li>
+                                                    <li><a href="products6.html">Bakım ve Krem</a></li>
+                                                    <li><a href="products6.html">Losyon, Şampuan, Spreyler</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">Office</a>
+                                                <a href="#">AĞIZ BAKIM </a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products6.html">Calendars</a></li>
-                                                    <li><a href="products6.html">Mousepads</a></li>
-                                                    <li><a href="products6.html">Phone Cases</a></li>
-                                                    <li><a href="products6.html">Tablet & Laptop Cases</a></li>
-                                                    <li><a href="products6.html">Mounted Photos</a></li>
+                                                    <li><a href="products6.html">Diş Fırçası</a></li>
+                                                    <li><a href="products6.html">Diş Parlatıcısı</a></li>
+                                                    <li><a href="products6.html">Diş Macunu</a></li>
+                                                    <li><a href="products6.html">Ağız Gargarası</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">Combos </a>
+                                                <a href="#">DUŞ VE BANYO </a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products6.html">Chocolates </a></li>
-                                                    <li><a href="products6.html">Dry Fruits</a></li>
-                                                    <li><a href="products6.html">Sweets</a></li>
-                                                    <li><a href="products6.html">Snacks</a></li>
-                                                    <li><a href="products6.html">Cakes</a></li>
+                                                    <li><a href="products6.html">Duş Jeli</a></li>
+                                                    <li><a href="products6.html">Sabun</a></li>
+                                                    <li><a href="products6.html">Banyo Tuzu</a></li>
+                                                    <li><a href="products6.html">Köpük ve Yağı</a></li>
+                                                    <li><a href="products6.html">Antibakteriyel SAbun</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
                                         <!-- .cd-secondary-dropdown -->
                                     </li>
                                     <li class="has-children">
-                                        <a href="#">Health, Beauty & Pharmacy</a>
+                                        <a href="#">Süpermarket Petshop</a>
                                         <ul class="cd-secondary-dropdown is-hidden">
                                             <li class="go-back"><a href="#">Menu</a></li>
-                                            <li class="see-all"><a href="products7.html">All Products</a></li>
+                                            <li class="see-all"><a href="products7.html">TÜM SÜPERMARKET, PETSHOP</a></li>
                                             <li class="has-children">
-                                                <a href="#">Health</a>
+                                                <a href="#">KAĞIT ÜRÜNLERİ</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products7.html">Home Health Care </a></li>
-                                                    <li><a href="products7.html">Sports Nutrition </a></li>
-                                                    <li><a href="products7.html">Vision </a></li>
-                                                    <li><a href="products7.html">Vitamins </a></li>
-                                                    <li><a href="products7.html">Diet & Nutrition </a></li>
+                                                    <li><a href="products7.html">Tuvalet Kağıdı</a></li>
+                                                    <li><a href="products7.html">Kağıt Havlu</a></li>
+                                                    <li><a href="products7.html">Kağıt Mendil</a></li>
+                                                    <li><a href="products7.html">Kağıt Peçete</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">Health Tips</a>
+                                                <a href="#">BEBEK BEZLERİ</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products7.html">Diet</a></li>
-                                                    <li><a href="products7.html">Exercise Tips  </a></li>
-                                                    <li><a href="products7.html">Vitamin Balance</a></li>
-                                                    <li><a href="products7.html">Health Insurance</a></li>
-                                                    <li><a href="products7.html">Funeral</a></li>
+                                                    <li><a href="products7.html">Bebek Bezleri</a></li>
+                                                    <li><a href="products7.html">Islak Temizleme Mendilleri</a></li>
+                                                    <li><a href="products7.html">Alt Açma Setleri</a></li>
+                                                    <li><a href="products7.html">Bebek Temizlik ve Bakım</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">Beauty </a>
+                                                <a href="#">DETERJAN-TEMİZLİK </a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products7.html">Massage & Spa </a></li>
-                                                    <li><a href="products7.html">Face Wash</a></li>
-                                                    <li><a href="products7.html">Facial Cleanser</a></li>
-                                                    <li><a href="products7.html">Makeup </a></li>
-                                                    <li><a href="products7.html">Beauty Tips</a></li>
+                                                    <li><a href="products7.html">Çaşır Yıkama Ürünleri</a></li>
+                                                    <li><a href="products7.html">Bulaşık Yıkama Ürünleri</a></li>
+                                                    <li><a href="products7.html">Genel Temizlik</a></li>
+                                                    <li><a href="products7.html">Haşere Öldürücüler</a></li>
+                                                    <li><a href="products7.html">Bulaşık Süngerleri</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">Pharmacy </a>
+                                                <a href="#">GIDA ÜRÜNLERİ</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products7.html">Home Delivery </a></li>
-                                                    <li><a href="products7.html">History & Reports </a></li>
-                                                    <li><a href="products7.html">Transfer Prescriptions </a></li>
-                                                    <li><a href="products7.html">Health CheckUp</a></li>
-                                                    <li><a href="products7.html">Mobile App</a></li>
+                                                    <li><a href="products7.html">Atıştırmalıklar</a></li>
+                                                    <li><a href="products7.html">Kahvaltılıklar</a></li>
+                                                    <li><a href="products7.html">Kuru Gıda Ürünleri</a></li>
+                                                    <li><a href="products7.html">Gurme & Organik ÜRünler</a></li>
+                                                    <li><a href="products7.html">Hazır Yemekler</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">Pharmacy Center </a>
+                                                <a href="#">İÇECEK ÜRÜNLERİ</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products7.html">Diabetes Shop </a></li>
-                                                    <li><a href="products7.html">Medicine Cabinet </a></li>
-                                                    <li><a href="products7.html">Vitamin Selector</a></li>
-                                                    <li><a href="products7.html">Pharmacy Help</a></li>
+                                                    <li><a href="products7.html">Çaylar</a></li>
+                                                    <li><a href="products7.html">Gazlı İçecekler</a></li>
+                                                    <li><a href="products7.html">İçecek Tozları</a></li>
+                                                    <li><a href="products7.html">Meyve Suyu</a></li>
+                                                </ul>
+                                            </li>
+                                             <li class="has-children">
+                                                <a href="#">PETSHOP ÜRÜNLERİ</a>
+                                                <ul class="is-hidden">
+                                                    <li class="go-back"><a href="#"></a></li>
+                                                    <li><a href="products7.html">Köpek</a></li>
+                                                    <li><a href="products7.html">Kedi</a></li>
+                                                    <li><a href="products7.html">Balık</a></li>
+                                                    <li><a href="products7.html">Kuş</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
                                         <!-- .cd-secondary-dropdown -->
                                     </li>
                                     <li class="has-children">
-                                        <a href="#">Automotive</a>
+                                        <a href="#">Kitap, Müzik, Film, Hobi</a>
                                         <ul class="cd-secondary-dropdown is-hidden">
                                             <li class="go-back"><a href="#">Menu</a></li>
-                                            <li class="see-all"><a href="products8.html">All Products</a></li>
+                                            <li class="see-all"><a href="products8.html">TÜM KİTAP, MÜZİK, FİLM, HOBİ</a></li>
                                             <li class="has-children">
-                                                <a href="#">All Motors </a>
+                                                <a href="#">KİTAP & DERGİ</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products8.html">Bikes </a></li>
-                                                    <li><a href="products8.html">Yachts </a></li>
-                                                    <li><a href="products8.html">Scooters </a></li>
-                                                    <li><a href="products8.html">Autos</a></li>
-                                                    <li><a href="products8.html">Bus</a></li>
+                                                    <li><a href="products8.html">Edebiyat</a></li>
+                                                    <li><a href="products8.html">Eğitim</a></li>
+                                                    <li><a href="products8.html">Çocuk</a></li>
+                                                    <li><a href="products8.html">Okul Öncesi</a></li>
+                                                    <li><a href="products8.html">Akademik</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">Accessories </a>
+                                                <a href="#">MÜZİK ENSTRÜMANLAR</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products8.html">Vehicle Electronics</a></li>
-                                                    <li><a href="products8.html">Stereos & Monitors</a></li>
-                                                    <li><a href="products8.html">Bluetooth Devices</a></li>
-                                                    <li><a href="products8.html">GPS Navigation</a></li>
-                                                    <li><a href="products8.html">Speakers & Tweeters</a></li>
+                                                    <li><a href="products8.html">Gitarlar</a></li>
+                                                    <li><a href="products8.html">Orglar</a></li>
+                                                    <li><a href="products8.html">Piyano</a></li>
+                                                    <li><a href="products8.html">Bateriler</a></li>
+                                                    <li><a href="products8.html">Mikrofonlar</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">Safety & Security </a>
+                                                <a href="#">FİLM</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products8.html">Anti-Theft Devices </a></li>
-                                                    <li><a href="products8.html">Helmets</a></li>
-                                                    <li><a href="products8.html">Sensors</a></li>
-                                                    <li><a href="products8.html">Auto Repair Tools </a></li>
-                                                    <li><a href="products8.html">Antifreeze & Coolants </a></li>
+                                                    <li><a href="products8.html">Yabancı Film</a></li>
+                                                    <li><a href="products8.html">Yerli Film</a></li>
+                                                    <li><a href="products8.html">Belgesel</a></li>
+                                                    <li><a href="products8.html">Animasyon</a></li>
+                                                    <li><a href="products8.html">Sahne, Figür, Poster</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">Car Interiors</a>
+                                                <a href="#">HOBİ & OYUN</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products8.html">Stereos </a></li>
-                                                    <li><a href="products8.html">Floor Mats </a></li>
-                                                    <li><a href="products8.html">Seat Covers</a></li>
-                                                    <li><a href="products8.html">Chargers </a></li>
-                                                    <li><a href="products8.html">Audio Finder </a></li>
+                                                    <li><a href="products8.html">Uzaktan Kumandalı Araç</a></li>
+                                                    <li><a href="products8.html">Puzzlelar</a></li>
+                                                    <li><a href="products8.html">Oyun Takımları</a></li>
+                                                    <li><a href="products8.html">Maketler</a></li>
+                                                    <li><a href="products8.html">Model Araçlar</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">Exterior Accessories </a>
+                                                <a href="#">MÜZİK (MEDYA)</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products8.html">Wheel covers </a></li>
-                                                    <li><a href="products8.html">Car Lighting </a></li>
-                                                    <li><a href="products8.html">Polish & Waxes</a></li>
-                                                    <li><a href="products8.html">Cargo Management</a></li>
-                                                    <li><a href="products8.html">Car Decoration </a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="has-children">
-                                                <a href="#">Car Care</a>
-                                                <ul class="is-hidden">
-                                                    <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products8.html">Auto Tips & Advice </a></li>
-                                                    <li><a href="products8.html">Car Washes & Cleaners </a></li>
-                                                    <li><a href="products8.html">Car Wax & Polish</a></li>
-                                                    <li><a href="products8.html">Cleaning Tools</a></li>
-                                                    <li><a href="products8.html">Detailing Kits </a></li>
+                                                    <li><a href="products8.html">Albümler</a></li>
+                                                    <li><a href="products8.html">Aksesuarlar</a></li>
+                                                    <li><a href="products8.html">Müzikal Hediler</a></li>
+                                                    <li><a href="products8.html">Posterler</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
                                         <!-- .cd-secondary-dropdown -->
                                     </li>
                                     <li class="has-children">
-                                        <a href="#">Books, Music & Movies</a>
+                                        <a href="#">Yiyecek Yerleri, Cafeler, Restorantlar</a>
                                         <ul class="cd-secondary-dropdown is-hidden">
                                             <li class="go-back"><a href="#">Menu</a></li>
-                                            <li class="see-all"><a href="products9.html">All Products</a></li>
+                                            <li class="see-all"><a href="products9.html">TÜM RESTORANTLAR</a></li>
                                             <li class="has-children">
-                                                <a href="#">Books</a>
+                                                <a href="#">FAST FOOD</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li class="has-children"><a href="#">Exam books </a>
-                                                        <ul class="is-hidden">
-                                                            <li class="go-back"><a href="#"></a></li>
-                                                            <li><a href="products9.html">CAT/MAT/XAT</a></li>
-                                                            <li><a href="products9.html">Civil Services</a></li>
-                                                            <li><a href="products9.html">AFCAT</a></li>
-                                                            <li><a href="products9.html">New Releases</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="products9.html">Academic Text </a></li>
-                                                    <li><a href="products9.html">Romance Books </a></li>
-                                                    <li><a href="products9.html">Journals </a></li>
-                                                    <li><a href="products9.html">Children's & Teen Books </a></li>
+                                                    <li ><a href="#">Burger King </a></li>
+                                                    <li><a href="products9.html">McDonalds</a></li>
+                                                    <li><a href="products9.html">KFC</a></li>
+                                                    <li><a href="products9.html">Domino's Pizza</a></li>
+                                                    <li><a href="products9.html">Piza pizza</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">Music</a>
+                                                <a href="#">CAFELER</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products9.html">New Releases </a></li>
-                                                    <li><a href="products9.html">Country Music </a></li>
-                                                    <li><a href="products9.html">Musical Instruments </a></li>
-                                                    <li><a href="products9.html">Collections</a></li>
-                                                    <li><a href="products9.html">Boxed Sets </a></li>
+                                                    <li><a href="products9.html">Canlı Müzik</a></li>
+                                                    <li><a href="products9.html">Sohbet Cafeleri</a></li>
+                                                    <li><a href="products9.html">Kahve, Çay</a></li>
+                                                    <li><a href="products9.html">Börek Salonları</a></li>
+                                                    <li><a href="products9.html">Elit Mekanlar</a></li>
+                                                </ul>
+                                            </li>
+                                             <li class="has-children">
+                                                <a href="#">TATLICILAR</a>
+                                                <ul class="is-hidden">
+                                                    <li class="go-back"><a href="#"></a></li>
+                                                    <li><a href="products9.html">Baklava</a></li>
+                                                    <li><a href="products9.html">Şeker Pare</a></li>
+                                                    <li><a href="products9.html">Ekmek Kadayıfı</a></li>
+                                                    <li><a href="products9.html">Güllaç</a></li>
+                                                    <li><a href="products9.html">Puding Çeşitleri</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
-                                                <a href="#">Music Combo</a>
+                                                <a href="#">RESTORANTLAR</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products9.html">Pop </a></li>
-                                                    <li><a href="products9.html">Preorders </a></li>
-                                                    <li><a href="products9.html">Album Songs</a></li>
-                                                    <li><a href="products9.html">Top 50 CDs </a></li>
-                                                    <li><a href="products9.html">Music DVDs </a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="has-children">
-                                                <a href="#">Movies</a>
-                                                <ul class="is-hidden">
-                                                    <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products9.html">New Releases </a></li>
-                                                    <li><a href="products9.html">Children & Family </a></li>
-                                                    <li><a href="products9.html">Action</a></li>
-                                                    <li><a href="products9.html">Classic Movies </a></li>
-                                                    <li><a href="products9.html">Bollywood Movies </a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="has-children">
-                                                <a href="#">Movies Combo</a>
-                                                <ul class="is-hidden">
-                                                    <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products9.html">Hollywood Movies </a></li>
-                                                    <li><a href="products9.html">Digital Movies </a></li>
-                                                    <li><a href="products9.html">Boxed Sets</a></li>
-                                                    <li><a href="products9.html">Animated</a></li>
-                                                    <li><a href="products9.html">Adventure</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="has-children">
-                                                <a href="#">TV Shows</a>
-                                                <ul class="is-hidden">
-                                                    <li class="go-back"><a href="#"></a></li>
-                                                    <li><a href="products9.html">Serials</a></li>
-                                                    <li><a href="products9.html">Best Programs</a></li>
-                                                    <li><a href="products9.html">Celebrations</a></li>
-                                                    <li><a href="products9.html">Top Shows</a></li>
+                                                    <li><a href="products9.html">Balık Restoranı </a></li>
+                                                    <li><a href="products9.html">Pide Restoranı </a></li>
+                                                    <li><a href="products9.html">Lahmacun & Güveç </a></li>
+                                                    <li><a href="products9.html">Döner Restoranı</a></li>
+                                                     <li><a href="products9.html">Kebap Restoranı</a></li>
+                                                    <li><a href="products9.html">Çiğ Köfte </a></li>
+                                                    <li><a href="products9.html">Kebap Restoranı</a></li>
+                                                    <li><a href="products9.html">Kumru, Midye, İçli Köfte</a></li>
+                                                    <li><a href="products9.html">Tantuni, Tost, Köfte</a></li>
+                                                    <li><a href="products9.html">Izgara Çeşitleri</a></li>
+
                                                 </ul>
                                             </li>
                                         </ul>
                                         <!-- .cd-secondary-dropdown -->
                                     </li>
-                                    <li><a href="sitemap.html">Full Site Directory </a></li>
+                                    <li><a href="sitemap.html">Tüm Kategoriler </a></li>
                                 </ul>
                                 <!-- .cd-dropdown-content -->
                             </nav>
@@ -1111,23 +1036,23 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                         <ul id="myTab" class=" nav-tabs" role="tablist">
                             <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab">
                                 <i class="fa fa-laptop" aria-hidden="true"></i>
-                                <h5>Electronics</h5>
+                                <h5>Electronik</h5>
                             </a></li>
                             <li role="presentation"><a href="#carl" role="tab" id="carl-tab" data-toggle="tab">
                                 <i class="fa fa-female" aria-hidden="true"></i>
-                                <h5>Fashion</h5>
+                                <h5>Kadın</h5>
                             </a></li>
                             <li role="presentation"><a href="#james" role="tab" id="james-tab" data-toggle="tab">
                                 <i class="fa fa-gift" aria-hidden="true"></i>
-                                <h5>Photo & Gifts</h5>
+                                <h5>Hediyelikler</h5>
                             </a></li>
                             <li role="presentation"><a href="#decor" role="tab" id="decor-tab" data-toggle="tab">
                                 <i class="fa fa-home" aria-hidden="true"></i>
-                                <h5>Home Decor</h5>
+                                <h5>Ev, Yaşam, Ofis</h5>
                             </a></li>
                             <li role="presentation"><a href="#sports" role="tab" id="sports-tab" data-toggle="tab">
                                 <i class="fa fa-motorcycle" aria-hidden="true"></i>
-                                <h5>Sports</h5>
+                                <h5>Spor</h5>
                             </a></li>
                         </ul>
                         <div class="clearfix"></div>
@@ -2067,90 +1992,90 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
         <!-- deals -->
         <div class="deals">
             <div class="container">
-                <h3 class="w3ls-title">DEALS OF THE DAY </h3>
+                <h3 class="w3ls-title">GÜNLÜK TEKLİFLER </h3>
                 <div class="deals-row">
                     <div class="col-md-3 focus-grid">
                         <a href="products.html" class="wthree-btn">
                             <div class="focus-image"><i class="fa fa-mobile"></i></div>
-                            <h4 class="clrchg">Mobiles</h4>
+                            <h4 class="clrchg">Mobİl</h4>
                         </a>
                     </div>
                     <div class="col-md-3 focus-grid">
                         <a href="products.html" class="wthree-btn wthree1">
                             <div class="focus-image"><i class="fa fa-laptop"></i></div>
-                            <h4 class="clrchg">Electronics & Appliances</h4>
+                            <h4 class="clrchg">Electronİk & Bİlgİsayar</h4>
                         </a>
                     </div>
                     <div class="col-md-3 focus-grid">
                         <a href="products4.html" class="wthree-btn wthree2">
                             <div class="focus-image"><i class="fa fa-wheelchair"></i></div>
-                            <h4 class="clrchg">Furnitures</h4>
+                            <h4 class="clrchg">YAŞAM</h4>
                         </a>
                     </div>
                     <div class="col-md-3 focus-grid">
                         <a href="products3.html" class="wthree-btn wthree3">
                             <div class="focus-image"><i class="fa fa-home"></i></div>
-                            <h4 class="clrchg">Home Decor</h4>
+                            <h4 class="clrchg">EV DEKOR</h4>
                         </a>
                     </div>
                     <div class="col-md-2 focus-grid w3focus-grid-mdl">
                         <a href="products9.html" class="wthree-btn wthree3">
                             <div class="focus-image"><i class="fa fa-book"></i></div>
-                            <h4 class="clrchg">Books & Music</h4>
+                            <h4 class="clrchg">KİTAP VE MÜZİK</h4>
                         </a>
                     </div>
                     <div class="col-md-2 focus-grid w3focus-grid-mdl">
                         <a href="products1.html" class="wthree-btn wthree4">
                             <div class="focus-image"><i class="fa fa-asterisk"></i></div>
-                            <h4 class="clrchg">Fashion</h4>
+                            <h4 class="clrchg">MODA & TAKI</h4>
                         </a>
                     </div>
                     <div class="col-md-2 focus-grid w3focus-grid-mdl">
                         <a href="products2.html" class="wthree-btn wthree2">
                             <div class="focus-image"><i class="fa fa-gamepad"></i></div>
-                            <h4 class="clrchg">Kids</h4>
+                            <h4 class="clrchg">OYUN</h4>
                         </a>
                     </div>
                     <div class="col-md-2 focus-grid w3focus-grid-mdl">
                         <a href="products5.html" class="wthree-btn wthree">
                             <div class="focus-image"><i class="fa fa-shopping-basket"></i></div>
-                            <h4 class="clrchg">Groceries</h4>
+                            <h4 class="clrchg">SÜPERMARKET</h4>
                         </a>
                     </div>
                     <div class="col-md-2 focus-grid w3focus-grid-mdl">
                         <a href="products7.html" class="wthree-btn wthree5">
                             <div class="focus-image"><i class="fa fa-medkit"></i></div>
-                            <h4 class="clrchg">Health</h4>
+                            <h4 class="clrchg">HOBİ</h4>
                         </a>
                     </div>
                     <div class="col-md-2 focus-grid w3focus-grid-mdl">
                         <a href="products8.html" class="wthree-btn wthree1">
                             <div class="focus-image"><i class="fa fa-car"></i></div>
-                            <h4 class="clrchg">Automotive</h4>
+                            <h4 class="clrchg">OTO AKSESUAR</h4>
                         </a>
                     </div>
                     <div class="col-md-3 focus-grid">
                         <a href="products5.html" class="wthree-btn wthree2">
                             <div class="focus-image"><i class="fa fa-cutlery"></i></div>
-                            <h4 class="clrchg">Food</h4>
+                            <h4 class="clrchg">YİYECEK VE KAFELER</h4>
                         </a>
                     </div>
                     <div class="col-md-3 focus-grid">
                         <a href="products4.html" class="wthree-btn wthree5">
                             <div class="focus-image"><i class="fa fa-futbol-o"></i></div>
-                            <h4 class="clrchg">Sports</h4>
+                            <h4 class="clrchg">SPOR</h4>
                         </a>
                     </div>
                     <div class="col-md-3 focus-grid">
                         <a href="products2.html" class="wthree-btn wthree3">
                             <div class="focus-image"><i class="fa fa-gamepad"></i></div>
-                            <h4 class="clrchg">Games & Toys</h4>
+                            <h4 class="clrchg">OYUN KONSOLLARI</h4>
                         </a>
                     </div>
                     <div class="col-md-3 focus-grid">
                         <a href="products6.html" class="wthree-btn ">
                             <div class="focus-image"><i class="fa fa-gift"></i></div>
-                            <h4 class="clrchg">Gifts</h4>
+                            <h4 class="clrchg">HEDİYELİK EŞYA</h4>
                         </a>
                     </div>
                     <div class="clearfix"></div>
