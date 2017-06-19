@@ -105,9 +105,9 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 <body>
     <form id="form1" runat="server">
         <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
-     
-         <%-- MODAL POPUP EKRANI --%>
-          <%-- <div class="agileits-modal modal fade" id="myModal88" tabindex="-1" role="dialog" aria-labelledby="myModal88"
+
+        <%-- MODAL POPUP EKRANI --%>
+        <%-- <div class="agileits-modal modal fade" id="myModal88" tabindex="-1" role="dialog" aria-labelledby="myModal88"
             aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -191,19 +191,25 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
         <!-- header -->
         <div class="header">
             <div class="w3ls-header">
-                <!--header-one-->  
+                <!--header-one-->
                 <div class="w3ls-header-right">
-                    <ul> 
-                           <li class="dropdown head-dpdn" >
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color:#ffffff"><i class="fa fa-user" aria-hidden="true"></i> Giriş Yap<span class="caret"></span></a>
+                    <ul>
+                         <li class="dropdown head-dpdn">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: #ffffff"><i class="fa fa-user" aria-hidden="true"></i>Mağaza Giriş<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="login.html">Giriş Yap</a></li>
-                                <li><a href="signup.html">Kaydol</a></li>  
-                                 <li><a href="signup.html">Mağaza Girişi</a></li>  
+                                <li><a href="signup.html">Kaydol</a></li>
                             </ul>
                         </li>
                         <li class="dropdown head-dpdn">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-home" aria-hidden="true"></i>Anasayfa </a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: #ffffff"><i class="fa fa-user" aria-hidden="true"></i>Giriş Yap<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="login.html">Giriş Yap</a></li>
+                                <li><a href="signup.html">Kaydol</a></li> 
+                            </ul>
+                        </li>
+                        <li class="dropdown head-dpdn">
+                            <a href="Default.aspx" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-home" aria-hidden="true"></i>Anasayfa </a>
                         </li>
                         <li class="dropdown head-dpdn">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa  fa-question-circle" aria-hidden="true"></i>Biz Kimiz? </a>
@@ -212,8 +218,6 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                         <li class="dropdown head-dpdn">
                             <a href="contact.html" class="dropdown-toggle"><i class="fa fa-map-marker" aria-hidden="true"></i>İletişim</a>
                         </li>
-                       
-
                     </ul>
                 </div>
                 <div class="clearfix"></div>
@@ -222,9 +226,9 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                 <!-- header-two -->
                 <div class="container">
                     <div class="header-logo">
-                        <a href="index.html">
+                        <a href="Default.aspx">
                             <img src="images/logo.png" class="img-responsive" style="margin-top: 40px" />
-                        </a> 
+                        </a>
                     </div>
                     <div class="header-search">
                         <%--  <form action="#" method="post">--%>
@@ -279,7 +283,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                                                     </li>
                                                     <li><a href="products.html">IPhone</a> </li>
                                                     <li><a href="products.html">Tabletler</a></li>
-                                                    <li><a href="products.html">IPad</a></li> 
+                                                    <li><a href="products.html">IPad</a></li>
                                                 </ul>
                                             </li>
                                             <li class="has-children">
@@ -288,7 +292,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                                                     <li class="go-back"><a href="#">All Electronics </a></li>
                                                     <li><a href="products.html">Dizüstü</a></li>
                                                     <li><a href="products.html">Masaüstü</a></li>
-                                                    <li><a href="products.html">Harddisk</a></li> 
+                                                    <li><a href="products.html">Harddisk</a></li>
                                                     <li><a href="products.html">Aksesuarlar</a></li>
                                                     <li><a href="products.html">Çevre Birimleri</a></li>
                                                 </ul>
@@ -319,7 +323,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                                                 <a href="#">BEYAZ EŞYA</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#0">All Electronics </a></li>
-                                                    <li ><a href="#">Çamaşır Makineleri</a></li>
+                                                    <li><a href="#">Çamaşır Makineleri</a></li>
                                                     <li><a href="products.html">Buzdolapları</a></li>
                                                     <li><a href="products.html">Bulaşık Makineleri</a></li>
                                                     <li><a href="products.html">Derin Dondurucular</a></li>
@@ -424,7 +428,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                                                     <li><a href="products1.html">Duvar Saatleri</a></li>
                                                 </ul>
                                             </li>
-                                             <li class="has-children">
+                                            <li class="has-children">
                                                 <a href="#">ALTIN</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#">All Fashion Stores</a></li>
@@ -472,7 +476,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                                                     <li><a href="products2.html">Kırtasiye Ürünleri</a></li>
                                                     <li><a href="products2.html">Ofis Makineleri</a></li>
                                                     <li><a href="products2.html">Okul ürünleri</a></li>
-                                                    <li ><a href="#">Piller & Şarjlar</a></li>
+                                                    <li><a href="#">Piller & Şarjlar</a></li>
                                                     <li><a href="products2.html">Projeksiyon Sistemleri</a></li>
                                                 </ul>
                                                 <!-- .cd-secondary-dropdown -->
@@ -697,7 +701,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                                                     <li><a href="products5.html">Termos Muglar</a></li>
                                                     <li><a href="products5.html">Doğa Sporları</a></li>
                                                 </ul>
-                                            </li> 
+                                            </li>
                                         </ul>
                                         <!-- .cd-secondary-dropdown -->
                                     </li>
@@ -831,7 +835,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                                                     <li><a href="products7.html">Meyve Suyu</a></li>
                                                 </ul>
                                             </li>
-                                             <li class="has-children">
+                                            <li class="has-children">
                                                 <a href="#">PETSHOP ÜRÜNLERİ</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
@@ -915,7 +919,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                                                 <a href="#">FAST FOOD</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
-                                                    <li ><a href="#">Burger King </a></li>
+                                                    <li><a href="#">Burger King </a></li>
                                                     <li><a href="products9.html">McDonalds</a></li>
                                                     <li><a href="products9.html">KFC</a></li>
                                                     <li><a href="products9.html">Domino's Pizza</a></li>
@@ -933,7 +937,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                                                     <li><a href="products9.html">Elit Mekanlar</a></li>
                                                 </ul>
                                             </li>
-                                             <li class="has-children">
+                                            <li class="has-children">
                                                 <a href="#">TATLICILAR</a>
                                                 <ul class="is-hidden">
                                                     <li class="go-back"><a href="#"></a></li>
@@ -952,7 +956,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                                                     <li><a href="products9.html">Pide Restoranı </a></li>
                                                     <li><a href="products9.html">Lahmacun & Güveç </a></li>
                                                     <li><a href="products9.html">Döner Restoranı</a></li>
-                                                     <li><a href="products9.html">Kebap Restoranı</a></li>
+                                                    <li><a href="products9.html">Kebap Restoranı</a></li>
                                                     <li><a href="products9.html">Çiğ Köfte </a></li>
                                                     <li><a href="products9.html">Kebap Restoranı</a></li>
                                                     <li><a href="products9.html">Kumru, Midye, İçli Köfte</a></li>
