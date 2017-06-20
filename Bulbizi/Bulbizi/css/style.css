@@ -1,9 +1,4 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 body{
 	margin:0; 
 	font-family: 'Roboto Condensed', sans-serif;
@@ -298,7 +293,7 @@ h3.w3ls-title {
     font-size: 2em;
     color: #000;
     margin: 1em 0;
-    font-family: 'Offside', cursive;
+    font-family: Tahoma, cursive;
 }
 .welcome-grids {
     float: left;
@@ -970,7 +965,7 @@ p {
 }
 .address-right:before {
     content: '';
-    background: url(../images/a1.png)no-repeat 0px 0px;
+    
     background-size: 100%;
     display: block;
     position: absolute;

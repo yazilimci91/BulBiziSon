@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AnaMaster.Master" />
+    <Content Include="Default.aspx" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.woff" />
@@ -73,7 +74,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Anasayfa.aspx" />
     <Content Include="css\animate.min.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\flexslider.css" />
@@ -165,7 +165,10 @@
     <Content Include="js\move-top.js" />
     <Content Include="js\owl.carousel.js" />
     <Content Include="images\logo.png" />
-    <Content Include="KayitOl.aspx" />
+    <Content Include="Kaydol.aspx" />
+    <Content Include="Kullanici_Giris.aspx" />
+    <Content Include="login.html" />
+    <Content Include="Magaza_Girisi.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -176,19 +179,33 @@
     <Compile Include="AnaMaster.Master.designer.cs">
       <DependentUpon>AnaMaster.Master</DependentUpon>
     </Compile>
-    <Compile Include="Anasayfa.aspx.cs">
-      <DependentUpon>Anasayfa.aspx</DependentUpon>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Anasayfa.aspx.designer.cs">
-      <DependentUpon>Anasayfa.aspx</DependentUpon>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="KayitOl.aspx.cs">
-      <DependentUpon>KayitOl.aspx</DependentUpon>
+    <Compile Include="Kaydol.aspx.cs">
+      <DependentUpon>Kaydol.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="KayitOl.aspx.designer.cs">
-      <DependentUpon>KayitOl.aspx</DependentUpon>
+    <Compile Include="Kaydol.aspx.designer.cs">
+      <DependentUpon>Kaydol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Kullanici_Giris.aspx.cs">
+      <DependentUpon>Kullanici_Giris.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kullanici_Giris.aspx.designer.cs">
+      <DependentUpon>Kullanici_Giris.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Magaza_Girisi.aspx.cs">
+      <DependentUpon>Magaza_Girisi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Magaza_Girisi.aspx.designer.cs">
+      <DependentUpon>Magaza_Girisi.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
