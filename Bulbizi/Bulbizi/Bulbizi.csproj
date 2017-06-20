@@ -83,6 +83,7 @@
     <Content Include="css\owl.carousel.css" />
     <Content Include="css\style.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="GoogleMapsMaker.aspx" />
     <Content Include="images\3.jpg" />
     <Content Include="images\5.jpg" />
     <Content Include="images\8.jpg" />
@@ -185,6 +186,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GoogleMapsMaker.aspx.cs">
+      <DependentUpon>GoogleMapsMaker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GoogleMapsMaker.aspx.designer.cs">
+      <DependentUpon>GoogleMapsMaker.aspx</DependentUpon>
     </Compile>
     <Compile Include="Kaydol.aspx.cs">
       <DependentUpon>Kaydol.aspx</DependentUpon>
