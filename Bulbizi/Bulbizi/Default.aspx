@@ -12,24 +12,24 @@
                         <!-- First-Slide -->
                         <img src="images/5.jpg" alt="" class="img-responsive" />
                         <div class="carousel-caption kb_caption kb_caption_right">
-                            <h3 data-animation="animated flipInX">Flat <span>50%</span> Discount</h3>
-                            <h4 data-animation="animated flipInX">Hot Offer Today Only</h4>
+                            <h3 data-animation="animated flipInX">Tüm mağazalar ve tüm ürünler bir tık ileride</h3>
+                            <h4 data-animation="animated flipInX">Aradığını bulmak artık çok kolay</h4>
                         </div>
                     </div>
                     <div class="item">
                         <!-- Second-Slide -->
                         <img src="images/8.jpg" alt="" class="img-responsive" />
                         <div class="carousel-caption kb_caption kb_caption_right">
-                            <h3 data-animation="animated fadeInDown">Our Latest Fashion Editorials</h3>
-                            <h4 data-animation="animated fadeInUp">cupidatat non proident</h4>
+                            <h3 data-animation="animated fadeInDown">Giyimden alışverişe, yiyecekten elektroniğe</h3>
+                            <h4 data-animation="animated fadeInUp">herşeye bir tık ile ulaşmanın adresi</h4>
                         </div>
                     </div>
                     <div class="item">
                         <!-- Third-Slide -->
                         <img src="images/3.jpg" alt="" class="img-responsive" />
                         <div class="carousel-caption kb_caption kb_caption_center">
-                            <h3 data-animation="animated fadeInLeft">End Of Season Sale</h3>
-                            <h4 data-animation="animated flipInX">cupidatat non proident</h4>
+                            <h3 data-animation="animated fadeInLeft">Yürüdüğün sokak üzerindeki tüm mağazalar </h3>
+                            <h4 data-animation="animated flipInX">artık telefonunda, web sitesinde</h4>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
                         <ul id="myTab" class=" nav-tabs" role="tablist">
                             <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab">
                                 <i class="fa fa-laptop" aria-hidden="true"></i>
-                                <h5>Electronik</h5>
+                                <h5>Elektronik</h5>
                             </a></li>
                             <li role="presentation"><a href="#carl" role="tab" id="carl-tab" data-toggle="tab">
                                 <i class="fa fa-female" aria-hidden="true"></i>
@@ -75,7 +75,7 @@
                             </a></li>
                         </ul>
                         <div class="clearfix"></div>
-                        <h3 class="w3ls-title">Featured Products</h3>
+                        <h3 class="w3ls-title">Mağazalar</h3>
                         <div id="myTabContent" class="tab-content">
                             <div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
                                 <div class="tabcontent-grids">
@@ -85,15 +85,15 @@
                                                 <a href="products.html">
                                                     <img src="images/e1.png" alt="img"></a>
                                                 <div class="view-caption agileits-w3layouts">
-                                                    <h4><a href="products.html">Audio speaker</a></h4>
-                                                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                                                    <h4><a href="products.html">Telkomlar Elektronik</a></h4>
+                                                    <p>Elektrikçi, elektronik malzemeler, ampul</p>
                                                     <h5>$100</h5>
                                                     <form action="#" method="post">
                                                         <input type="hidden" name="cmd" value="_cart" />
                                                         <input type="hidden" name="add" value="1" />
                                                         <input type="hidden" name="w3ls_item" value="Audio speaker" />
                                                         <input type="hidden" name="amount" value="100.00" />
-                                                        <button type="submit" class="w3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i>Add to cart</button>
+                                                        <button type="submit" class="w3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i>Adrese Git</button>
                                                     </form>
                                                 </div>
                                             </div>
@@ -1022,7 +1022,7 @@
                     <div class="col-md-3 focus-grid">
                         <a href="products.html" class="wthree-btn wthree1">
                             <div class="focus-image"><i class="fa fa-laptop"></i></div>
-                            <h4 class="clrchg">Electronİk & Bİlgİsayar</h4>
+                            <h4 class="clrchg">Elektronİk & Bİlgİsayar</h4>
                         </a>
                     </div>
                     <div class="col-md-3 focus-grid">
@@ -1111,8 +1111,8 @@
                             <i class="fa fa-truck" aria-hidden="true"></i>
                         </div>
                         <div class="ftr-top-right">
-                            <h4>FREE DELIVERY</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus justo ac </p>
+                            <h4 style="font-family:Tahoma">ÜCRETSİZ ERİŞİM</h4>
+                            <p>Tüm mağazalara ücretsiz bir şekilde mobilden veya web sitesinde erişebilirsiniz. </p>
                         </div>
                         <div class="clearfix"></div>
                     </div>
@@ -1121,8 +1121,8 @@
                             <i class="fa fa-user" aria-hidden="true"></i>
                         </div>
                         <div class="ftr-top-right">
-                            <h4>CUSTOMER CARE</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus justo ac </p>
+                            <h4 style="font-family:Tahoma">MÜŞTERİ MEMNUNİYETİ</h4>
+                            <p>Alış-veriş yaptığınız mağaza hakkında yaptığınız yorumlar ile memnuniyetinizi ölçüyoruz.</p>
                         </div>
                         <div class="clearfix"></div>
                     </div>
@@ -1131,8 +1131,8 @@
                             <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
                         </div>
                         <div class="ftr-top-right">
-                            <h4>GOOD QUALITY</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus justo ac </p>
+                            <h4 style="font-family:Tahoma">KALİTELİ YAŞAM</h4>
+                            <p>Yazdığınız yorumlar ile mağazalara olan güveni ve kaliteyi ortaya çıkartıyoruz.</p>
                         </div>
                         <div class="clearfix"></div>
                     </div>
